@@ -6,7 +6,7 @@ labels: ['NETWORK-UPGRADE', 'NODE-MAINTENANCE']
 
 ---
 
-## NEEDS REVIEW
+NEEDS REVIEW
 
 - [ ] !!! read release notes !!!
 - [ ] build docker image
