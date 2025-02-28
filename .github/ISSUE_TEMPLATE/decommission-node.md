@@ -2,9 +2,7 @@
 name: Network Decommissioning
 about: Decommission a network and remove related infrastructure
 title: 'Network Decommission - {insert network name}'
-labels:
-  - 'NETWORK-DECOMMISSION'
-  - 'NODE-MAINTENANCE'
+labels: NETWORK-DECOMMISSION, NODE-MAINTENANCE
 ---
 
 # **Network Decommissioning Checklist**
