@@ -5,7 +5,10 @@ title: 'Network Decommission - {insert network name}'
 labels: NETWORK-DECOMMISSION, NODE-MAINTENANCE
 ---
 
-# **Network Decommissioning Checklist**
+### Assignee:
+- [ ] @username (Please assign yourself or the appropriate person)
+
+# ✅ **Network Decommissioning Checklist**
 - [ ] Stop and purge **validator Nomad job**.
 - [ ] Stop and purge **any full-nodes** (e.g., `sentry0`, `relayer0`).
 - [ ] Stop and purge **TMKMS** associated with the validator.
@@ -17,7 +20,7 @@ labels: NETWORK-DECOMMISSION, NODE-MAINTENANCE
 - [ ] Remove **jobs from the infra repo**.
 
 ### **Completion Criteria**
-##### ✅ _The network is considered **fully decommissioned** when:_
+✅ The network is considered **fully decommissioned** when:
   - The **validator, full-nodes, and TMKMS** Nomad jobs are stopped and purged.
   - **Docker volumes** are removed from all relevant servers.
   - The network is deleted from **Consul** and **Vault**.
