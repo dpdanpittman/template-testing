@@ -17,4 +17,3 @@ NEEDS REVIEW
 - [ ] run nomad job for the other sentry
 - [ ] run nomad job for relayer nodes
 
-**Done when all nodes are running the new binary and are synced up**
